@@ -1,9 +1,16 @@
 {
-  "name": "gilas-ui",
+  "name": "@preflight-kits/gilas-ui",
   "version": "0.0.1",
   "description": "Gilas UI component library",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "vite build && tsc"
+    "build": "vite build && tsc",
+    "test": "exit 0"
   },
   "author": "Webino",
   "license": "ISC",
@@ -15,5 +22,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "@preflight-kits:registry": "https://npm.pkg.github.com"
   }
 }
