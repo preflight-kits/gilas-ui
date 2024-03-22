@@ -1,6 +1,6 @@
 {
   "name": "@preflight-kits/gilas-ui",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Gilas UI component library",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
