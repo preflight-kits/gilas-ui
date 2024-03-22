@@ -1,5 +1,6 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 
 export default defineConfig({
     build: {
@@ -13,4 +14,5 @@ export default defineConfig({
             external: ["react"],
         },
     },
+    plugins: [vanillaExtractPlugin()]
 });
